@@ -1,1 +1,110 @@
 /* Desenvolva sua estilização aqui... */
+header{
+
+    width: 100vw;
+    height: 789px;
+    background: rgba(0, 0, 0, 0.7) url("./.././../assets/img/desktop.jpg") no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-header{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.menu-flex{
+    margin-left: 40px;
+    width: 98%;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.logo-site{
+   width: 193.31px;
+   height: 23.97px;
+   margin-bottom: 30px;
+   margin-top: 120px;
+}
+
+.title-header{
+    color: var(--color-grey-3);
+    font-size: var(--title-2);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.text-header{
+    font-size: var(--text-1);
+    color: var(--color-grey-5);
+    line-height: 36px;
+    margin-bottom: 20px;
+
+}
+.strong-header{
+    color: var(--color-grey-5);
+    font-size: var(--text-1);
+    margin-bottom: 20px;
+}
+
+.container-general{
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color-grey-5);
+    display: flex;
+    flex-direction: column;
+}
+/* .area-jobs{
+
+
+} */
+.title-align{
+    max-width: 1200px;
+    height: 120px;
+    background-color: var(--color-grey-5);
+    display:flex;
+    align-items: center;
+}
+.title-general{
+
+    margin-left: 20px;
+
+}
+
+
+
+
+.container-aside{
+
+    width: 400px;
+    
+    max-width: 480px;
+    /* margin-left: 35px; */
+    border-radius: 10px;
+}
+
+.area-aside{
+    background-color: var(--color-grey-6);
+
+    min-height: 300px;
+    width: 100%;
+    padding: 32px;
+}
+.title-aside{
+    color: var(--color-grey-1);
+    font-size: 22px;
+}
+.optional-user{
+    margin-top: 40px;
+}
+/* .flex-area{
+  
+} */

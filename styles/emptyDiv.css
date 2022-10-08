@@ -1,0 +1,20 @@
+.emptyDiv{
+    width: 100%;
+    min-height: 20%;
+    padding-top: 45px;
+
+}
+.divImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.h5Empty{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-empty{
+    width: 90px;
+    height: 90px;
+}
